@@ -1,9 +1,8 @@
 # Sumar-21
 
-import random 	#importamos libreria 'random' para generar numeros al azar
+import random 
 
 
-# función para generar una carta aleatoriamente y mostrarla por pantalla
 def sacar_carta():
 	valor_carta= random.randrange(1,12)
 	print ("Su carta es ", valor_carta)
@@ -11,7 +10,6 @@ def sacar_carta():
 
 ##########################################
 
-# función para comprobar las condiciones de fin de juego
 def comprueba_fin_juego(puntos):	
 	if puntos==21:
 		print ("Enhorabuena has llegado a 21!!!")
@@ -44,12 +42,10 @@ def algoritmo_principal():
 
 		print("\n\nIniciamos una nueva partida")
 		
-		#preparación de variables
 		puntos=0 				
 		seguir_jugando = True	
 		respuesta = "s"			
 		
-		#bucle para sacar nuevas cartas
 		while seguir_jugando:
 			puntos += sacar_carta()
 			print ("\ttienes ", puntos, "puntos...")
