@@ -8,4 +8,4 @@ Añade comentarios con la idea de que un programador que lea el código del prog
 - La lógica que motiva la **modificación del valor** de algunas variables, por ejemplo: *contador +=1*.
 
 
-Los comentarios habrán de ser breves y explicativos, ubicándose lo más cerca posible de las instrucciones a que hacen referencia.
+Los comentarios habrán de ser breves y explicativos, ubicándolos lo más cerca posible de las instrucciones a que hacen referencia.
